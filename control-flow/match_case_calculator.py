@@ -1,16 +1,16 @@
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
-operator = input("Choose the operation (+, -, *, /): ")
-if operator == "+":
+operation = input("Choose the operation (+, -, *, /): ")
+if operation == "+":
     sum = num1 + num2
     print("The result is", sum)
-elif operator == "-":
+elif operation == "-":
     subtraction = num1 - num2
     print("The result is", subtraction)
-elif operator == "*":
+elif operation == "*":
     product = num1 * num2
     print("The result is ",product)
-elif operator == "/":
+elif operation == "/":
     if num2 == 0:
         print("Cannot divide by zero.")
     elif num2 != 0:
