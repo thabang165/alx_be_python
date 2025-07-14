@@ -4,5 +4,5 @@ row = 0
 while row < size:
     for col in range(size):
         print("*", end="")
-    print()  # move to next line after each row
+    print() 
     row += 1
